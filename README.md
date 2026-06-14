@@ -11,7 +11,8 @@ Co-authored by: Qwen (AI Dev)
 
 Copia y pega este comando en PowerShell como administrador:
 
-irm https://raw.githubusercontent.com/MIMASYS/Darling-System-Lite/main/DarlingSystemLite.ps1 | iex
+$Script:VersionURL = "https://raw.githubusercontent.com/MIMASYS/Darling-System-MagicalLite-Flavor-/main/version.txt"
+$Script:ReleasesURL = "https://github.com/MIMASYS/Darling-System-MagicalLite-Flavor-/releases"rm https://raw.githubusercontent.com/MIMASYS/Darling-System-Lite/main/ | iex
 Descripcion
 
 Darling System Lite es la version monolitica clasica del kit de herramientas para Windows 11/10. Todo el codigo en un solo archivo .ps1 para maxima portabilidad.

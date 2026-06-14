@@ -4,9 +4,8 @@ chcp 65001 | Out-Null
 
 # Version actual del script
 $Script:VersionActual = "1.0"
-$Script:VersionURL = "https://raw.githubusercontent.com/MIMASYS/Darling-System/main/version.txt"
-$Script:ReleasesURL = "https://github.com/MIMASYS/Darling-System/releases"
-
+$Script:VersionURL = "https://raw.githubusercontent.com/MIMASYS/Darling-System-MagicalLite-Flavor-/main/version.txt"
+$Script:ReleasesURL = "https://github.com/MIMASYS/Darling-System-MagicalLite-Flavor-/releases"
 # Forzar TLS 1.2 para descargas modernas
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
